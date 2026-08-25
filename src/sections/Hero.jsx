@@ -48,15 +48,27 @@ export default function Hero() {
         variants={container}
         className="relative mx-auto flex max-w-6xl flex-col items-center gap-8 px-6 text-center"
       >
-        <motion.div
-          variants={item}
-          className="relative h-28 w-28 shrink-0 overflow-hidden rounded-full border-2 border-accent/40 bg-surface p-1 shadow-lg shadow-accent-soft sm:h-32 sm:w-32"
-        >
-          <img
-            src={profileImage}
-            alt="Safarov Yusuf"
-            className="h-full w-full rounded-full object-cover"
-          />
+        <motion.div variants={item} className="shrink-0">
+          <motion.div
+            animate={{ y: [0, -10, 0] }}
+            transition={{ duration: 5, repeat: Infinity, ease: 'easeInOut' }}
+            whileHover={{ scale: 1.05 }}
+            className="relative"
+          >
+            <div
+              aria-hidden
+              className="absolute inset-0 -z-10 scale-90 rounded-full bg-gradient-to-br from-accent to-accent-2 opacity-40 blur-2xl"
+            />
+            <div className="rounded-full bg-gradient-to-br from-accent to-accent-2 p-[3px] shadow-xl shadow-accent-soft">
+              <div className="rounded-full bg-bg p-1.5">
+                <img
+                  src={profileImage}
+                  alt="Safarov Yusuf"
+                  className="h-36 w-36 rounded-full object-cover sm:h-44 sm:w-44 lg:h-48 lg:w-48"
+                />
+              </div>
+            </div>
+          </motion.div>
         </motion.div>
 
         <motion.span
