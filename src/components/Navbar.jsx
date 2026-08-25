@@ -45,7 +45,21 @@ export default function Navbar({ theme, toggleTheme }) {
     return () => observer.disconnect()
   }, [])
 
-  const handleLinkClick = () => setIsOpen(false)
+  const NAV_OFFSET = 80
+
+  const scrollToSection = (id) => (event) => {
+    event.preventDefault()
+    setIsOpen(false)
+    // Closing the mobile menu unlocks body scroll via an effect, but that runs
+    // asynchronously — reset it here too so the browser can scroll immediately.
+    document.body.style.overflow = ''
+
+    const target = document.getElementById(id)
+    if (!target) return
+
+    const top = target.getBoundingClientRect().top + window.scrollY - NAV_OFFSET
+    window.scrollTo({ top, behavior: 'smooth' })
+  }
 
   return (
     <header
@@ -56,7 +70,11 @@ export default function Navbar({ theme, toggleTheme }) {
       }`}
     >
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <a href="#home" className="font-display text-lg font-bold tracking-tight text-text">
+        <a
+          href="#home"
+          onClick={scrollToSection('home')}
+          className="font-display text-lg font-bold tracking-tight text-text"
+        >
           Yusuf<span className="text-accent">.</span>
         </a>
 
@@ -67,6 +85,7 @@ export default function Navbar({ theme, toggleTheme }) {
               <li key={link.id} className="relative py-1">
                 <a
                   href={link.href}
+                  onClick={scrollToSection(link.id)}
                   className={`relative z-10 text-sm font-medium transition-colors ${
                     isActive ? 'text-accent' : 'text-text-muted hover:text-accent'
                   }`}
@@ -90,6 +109,7 @@ export default function Navbar({ theme, toggleTheme }) {
           <ThemeToggle theme={theme} toggleTheme={toggleTheme} />
           <a
             href="#contact"
+            onClick={scrollToSection('contact')}
             className="rounded-full bg-accent px-5 py-2 text-sm font-semibold text-white shadow-lg shadow-accent-soft transition-transform hover:scale-105"
           >
             {t('nav.cta')}
@@ -125,7 +145,7 @@ export default function Navbar({ theme, toggleTheme }) {
                   <li key={link.id}>
                     <a
                       href={link.href}
-                      onClick={handleLinkClick}
+                      onClick={scrollToSection(link.id)}
                       className={`block rounded-lg px-3 py-3 text-base font-medium transition-colors hover:bg-surface hover:text-accent ${
                         isActive ? 'text-accent' : 'text-text-muted'
                       }`}
@@ -138,7 +158,7 @@ export default function Navbar({ theme, toggleTheme }) {
               <li className="mt-2">
                 <a
                   href="#contact"
-                  onClick={handleLinkClick}
+                  onClick={scrollToSection('contact')}
                   className="block rounded-full bg-accent px-4 py-3 text-center text-sm font-semibold text-white"
                 >
                   {t('nav.cta')}
