@@ -55,7 +55,7 @@
       "frontend": "Frontend",
       "backend": "Backend",
       "database": "Maʼlumotlar bazasi",
-      "tools": "Vositalar"
+      "tools": "Texnologiyalar"
     }
   },
   "projects": {
@@ -90,7 +90,7 @@
     "title": "Ish tajribam",
     "items": {
       "freelance": {
-        "role": "Frontend dasturchi (frilanser)",
+        "role": "Frontend dasturchi (freelancer)",
         "place": "Shaxsiy loyihalar, Toshkent",
         "period": "2026-yil may — hozirgacha",
         "description": "MERN stack yordamida interfeysdan tortib serverga joylashgacha toʻliq funksional veb-ilovalarni loyihalash va yaratish."
