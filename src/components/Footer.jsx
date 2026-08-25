@@ -18,13 +18,13 @@ export default function Footer() {
           &copy; {year} Safarov Yusuf. {t('footer.rights')}
         </p>
 
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-1">
           <a
             href="https://github.com/SafarovYusuf"
             target="_blank"
             rel="noreferrer"
             aria-label="GitHub"
-            className="text-text-muted transition-colors hover:text-accent"
+            className="p-2 text-text-muted transition-colors hover:text-accent"
           >
             <GithubIcon className="h-5 w-5" />
           </a>
@@ -33,7 +33,7 @@ export default function Footer() {
             target="_blank"
             rel="noreferrer"
             aria-label="Telegram"
-            className="text-text-muted transition-colors hover:text-accent"
+            className="p-2 text-text-muted transition-colors hover:text-accent"
           >
             <Send className="h-5 w-5" />
           </a>
@@ -42,7 +42,7 @@ export default function Footer() {
             target="_blank"
             rel="noreferrer"
             aria-label="LinkedIn"
-            className="text-text-muted transition-colors hover:text-accent"
+            className="p-2 text-text-muted transition-colors hover:text-accent"
           >
             <LinkedinIcon className="h-5 w-5" />
           </a>
