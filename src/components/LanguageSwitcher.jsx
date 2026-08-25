@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { Check, ChevronDown, Globe } from 'lucide-react'
 import { languages } from '../data/languages'
 
-export default function LanguageSwitcher({ className = '' }) {
+export default function LanguageSwitcher({ className = '', variant = 'dropdown' }) {
   const { i18n, t } = useTranslation()
   const [isOpen, setIsOpen] = useState(false)
   const containerRef = useRef(null)
@@ -24,6 +24,29 @@ export default function LanguageSwitcher({ className = '' }) {
   const handleSelect = (code) => {
     i18n.changeLanguage(code)
     setIsOpen(false)
+  }
+
+  if (variant === 'inline') {
+    return (
+      <div className={`inline-flex items-center gap-1 rounded-full border border-border bg-surface p-1 ${className}`}>
+        {languages.map((lang) => {
+          const isActive = lang.code === current.code
+          return (
+            <button
+              key={lang.code}
+              type="button"
+              onClick={() => handleSelect(lang.code)}
+              aria-pressed={isActive}
+              className={`rounded-full px-3 py-1.5 text-xs font-semibold uppercase transition-colors ${
+                isActive ? 'bg-accent text-white' : 'text-text-muted hover:text-accent'
+              }`}
+            >
+              {lang.label}
+            </button>
+          )
+        })}
+      </div>
+    )
   }
 
   return (

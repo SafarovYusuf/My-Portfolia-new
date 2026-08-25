@@ -145,7 +145,7 @@ export default function Navbar({ theme, toggleTheme }) {
                 </a>
               </li>
               <li className="mt-3 flex justify-center border-t border-border pt-4">
-                <LanguageSwitcher />
+                <LanguageSwitcher variant="inline" />
               </li>
             </ul>
           </motion.div>
