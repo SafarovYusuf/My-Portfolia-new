@@ -26,14 +26,14 @@ export default function Projects() {
               whileHover={{ y: -8, transition: { duration: 0.3, ease: [0.22, 1, 0.36, 1] } }}
               className="group flex flex-col overflow-hidden rounded-2xl border border-border bg-surface transition-[border-color,box-shadow] duration-300 ease-out hover:border-accent/50 hover:shadow-2xl hover:shadow-accent-soft"
             >
-              <div className="relative flex h-40 items-center justify-center overflow-hidden border-b border-border bg-gradient-to-br from-accent/20 via-bg-soft to-accent-2/10">
-                <span className="font-display text-3xl font-bold text-text/20 transition-transform duration-500 ease-out group-hover:scale-125 group-hover:rotate-2">
-                  {title
-                    .split(' ')
-                    .map((word) => word[0])
-                    .slice(0, 2)
-                    .join('')}
-                </span>
+              <div className="relative h-44 overflow-hidden border-b border-border bg-bg-soft">
+                <img
+                  src={project.image}
+                  alt={title}
+                  loading="lazy"
+                  className="h-full w-full object-cover object-top transition-transform duration-500 ease-out group-hover:scale-110"
+                />
+                <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/40 via-black/0 to-black/0" />
               </div>
 
               <div className="flex flex-1 flex-col p-6">
