@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "title": "Safarov Yusuf | Frontend dasturchi (React.js / Node.js)",
+    "description": "Safarov Yusuf — React.js va Node.js boʻyicha frontend dasturchi. MERN stack yordamida toʻliq funksional veb-ilovalar yarataman."
+  },
+  "nav": {
+    "about": "Men haqimda",
+    "skills": "Koʻnikmalar",
+    "projects": "Loyihalar",
+    "experience": "Tajriba",
+    "education": "Taʼlim",
+    "contact": "Aloqa",
+    "cta": "Bogʻlanish"
+  },
+  "theme": {
+    "light": "Yorugʻ mavzuga oʻtish",
+    "dark": "Qorongʻi mavzuga oʻtish"
+  },
+  "language": {
+    "label": "Til"
+  },
+  "hero": {
+    "badge": "Yangi imkoniyatlarga ochiqman",
+    "greeting": "Salom, men",
+    "role": "Frontend dasturchi",
+    "stack": "React.js va Node.js",
+    "tagline": "MERN stack yordamida toʻliq funksional veb-ilovalar yarataman.",
+    "ctaProjects": "Loyihalarni koʻrish",
+    "ctaCV": "CV yuklab olish"
+  },
+  "about": {
+    "eyebrow": "Men haqimda",
+    "title": "Ishini oxirigacha yetkazadigan frontend dasturchi.",
+    "bio": "Men React.js va Node.js yordamida mustaqil ravishda <b>5 ta toʻliq funksional veb-ilova</b> yaratib, ishga tushirgan frontend dasturchiman. Hozirda Oʻzbekiston Milliy universitetida <b>Axborot tizimlari va texnologiyalari (kechki boʻlim)</b> yoʻnalishida taʼlim olmoqdaman va Mohirdevda React.js kursini tamomladim. <b>MERN stack</b> va server sozlash (<b>Linux, Nginx, PM2</b>) boʻyicha amaliy tajribaga egaman.",
+    "highlights": {
+      "apps": {
+        "title": "5 ta toʻliq funksional ilova",
+        "description": "React.js va Node.js yordamida mustaqil yaratilgan va ishga tushirilgan."
+      },
+      "mern": {
+        "title": "MERN + DevOps",
+        "description": "MERN stack va server sozlash boʻyicha amaliy tajriba: Linux, Nginx, PM2."
+      },
+      "learning": {
+        "title": "Doimiy oʻrganish",
+        "description": "Axborot tizimlari va texnologiyalarini oʻrganish bilan birga amaliy kurslarni tamomlayapman."
+      }
+    }
+  },
+  "skills": {
+    "eyebrow": "Koʻnikmalar",
+    "title": "Men ishlatadigan vositalar va texnologiyalar",
+    "description": "Interfeysdan tortib serverga qadar toʻliq mahsulot yaratish uchun vositalar toʻplami.",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "database": "Maʼlumotlar bazasi",
+      "tools": "Vositalar"
+    }
+  },
+  "projects": {
+    "eyebrow": "Loyihalar",
+    "title": "Men yaratgan loyihalar",
+    "description": "Maktab platformalaridan tortib kundalik foydali ilovalargacha boʻlgan full-stack va frontend loyihalar toʻplami.",
+    "items": {
+      "school": {
+        "title": "Maktabning rasmiy veb-sayti",
+        "description": "JWT autentifikatsiyasi, toʻliq CRUD imkoniyatiga ega admin panel va fayl yuklash funksiyasiga ega maktabning rasmiy sayti."
+      },
+      "social": {
+        "title": "Ijtimoiy tarmoq / blog platformasi",
+        "description": "Foydalanuvchi roʻyxatdan oʻtishi, postlar va izohlar uchun toʻliq CRUD imkoniyatiga ega, tezkor Vite + Tailwind frontendida qurilgan ijtimoiy platforma."
+      },
+      "cars": {
+        "title": "Avtomobil eʼlonlari platformasi",
+        "description": "Qidiruv, filtrlash va saralash imkoniyatlariga ega, MERN stackda qurilgan toʻliq avtomobil eʼlonlari platformasi."
+      },
+      "weather": {
+        "title": "Ob-havo ilovasi",
+        "description": "Open-Meteo API asosida ishlaydigan, Bootstrap bilan moslashuvchan interfeysga ega qulay ob-havo ilovasi."
+      },
+      "prayer": {
+        "title": "Namoz vaqtlari ilovasi",
+        "description": "React va Aladhan API yordamida yaratilgan, Oʻzbekiston uchun namoz vaqtlarini koʻrsatuvchi ilova."
+      }
+    }
+  },
+  "experience": {
+    "eyebrow": "Tajriba",
+    "title": "Ish tajribam",
+    "items": {
+      "freelance": {
+        "role": "Frontend dasturchi (frilanser)",
+        "place": "Shaxsiy loyihalar, Toshkent",
+        "period": "2026-yil may — hozirgacha",
+        "description": "MERN stack yordamida interfeysdan tortib serverga joylashgacha toʻliq funksional veb-ilovalarni loyihalash va yaratish."
+      },
+      "teacher": {
+        "role": "Informatika oʻqituvchisi",
+        "place": "Xususiy maktab, Toshkent",
+        "period": "2024-yil sentabr — 2024-yil dekabr",
+        "description": "Oʻquvchilarga informatika asoslari va dasturlashni oʻrgatdim."
+      },
+      "operator": {
+        "role": "Operator",
+        "place": "Yandex Taxi, Toshkent",
+        "period": "2023-yil may — 2023-yil sentabr",
+        "description": "Yuqori yuklama sharoitida mijozlarga xizmat koʻrsatish va dispetcherlik vazifalarini bajardim."
+      }
+    }
+  },
+  "education": {
+    "eyebrow": "Taʼlim",
+    "title": "Taʼlim va kurslar",
+    "items": {
+      "university": {
+        "degree": "Bakalavriat, «Axborot tizimlari va texnologiyalari» (kechki boʻlim)",
+        "place": "Oʻzbekiston Milliy universiteti",
+        "period": "2021-yil sentabr — 2028-yil may"
+      },
+      "mohirdev": {
+        "degree": "React.js kursi",
+        "place": "Mohirdev, onlayn",
+        "period": "Tamomlangan"
+      }
+    },
+    "status": {
+      "inProgress": "Davom etmoqda",
+      "completed": "Tamomlangan"
+    }
+  },
+  "contact": {
+    "eyebrow": "Aloqa",
+    "title": "Keling, birga biror narsa yarataylik",
+    "description": "Toʻliq stavka, yarim stavka yoki loyiha asosidagi ishga ochiqman. Yozing, gʻoyangiz haqida gaplashamiz.",
+    "location": {
+      "title": "Toshkent, Oʻzbekistonda joylashganman",
+      "subtitle": "Masofaviy va ofisda ishlashga ochiqman"
+    },
+    "items": {
+      "email": "Email",
+      "phone": "Telefon",
+      "telegram": "Telegram",
+      "github": "GitHub",
+      "linkedin": "LinkedIn"
+    },
+    "form": {
+      "name": "Ism",
+      "namePlaceholder": "Ismingiz",
+      "email": "Email",
+      "emailPlaceholder": "siz@example.com",
+      "message": "Xabar",
+      "messagePlaceholder": "Loyihangiz haqida gapirib bering...",
+      "submit": "Xabar yuborish",
+      "sending": "Yuborilmoqda...",
+      "success": "Rahmat! Xabaringiz yuborildi — tez orada javob beraman.",
+      "error": "Xatolik yuz berdi. Qaytadan urinib koʻring yoki toʻgʻridan-toʻgʻri email orqali yozing."
+    }
+  },
+  "footer": {
+    "rights": "Barcha huquqlar himoyalangan.",
+    "backToTop": "Yuqoriga"
+  }
+}

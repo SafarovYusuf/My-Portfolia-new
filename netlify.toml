@@ -1,0 +1,19 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+  functions = "netlify/functions"
+
+[dev]
+  command = "npm run dev"
+  targetPort = 5173
+  port = 8888
+  publish = "dist"
+  framework = "#custom"
+
+# Let the frontend call the same "/api/contact" path on both Vercel and
+# Netlify — Vercel resolves it natively via /api, Netlify needs this rewrite
+# to its default /.netlify/functions/* route.
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200

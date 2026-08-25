@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "title": "Safarov Yusuf | Frontend Developer (React.js / Node.js)",
+    "description": "Safarov Yusuf — Frontend Developer specializing in React.js and Node.js. I build full-featured web applications with the MERN stack."
+  },
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "experience": "Experience",
+    "education": "Education",
+    "contact": "Contact",
+    "cta": "Let's talk"
+  },
+  "theme": {
+    "light": "Switch to light theme",
+    "dark": "Switch to dark theme"
+  },
+  "language": {
+    "label": "Language"
+  },
+  "hero": {
+    "badge": "Available for new opportunities",
+    "greeting": "Hi, I'm",
+    "role": "Frontend Developer",
+    "stack": "React.js & Node.js",
+    "tagline": "I build full-featured web applications with the MERN stack.",
+    "ctaProjects": "View Projects",
+    "ctaCV": "Download CV"
+  },
+  "about": {
+    "eyebrow": "About Me",
+    "title": "A frontend developer who ships.",
+    "bio": "I'm a frontend developer who has independently built and deployed <b>5 full-featured web applications</b> using React.js and Node.js. I'm currently studying <b>Information Systems and Technologies (evening program)</b> at the National University of Uzbekistan, and completed the React.js course at Mohirdev. I have hands-on experience with the <b>MERN stack</b> and server configuration (<b>Linux, Nginx, PM2</b>).",
+    "highlights": {
+      "apps": {
+        "title": "5 Full-Featured Apps",
+        "description": "Independently built and deployed with React.js and Node.js."
+      },
+      "mern": {
+        "title": "MERN + DevOps",
+        "description": "Hands-on with the MERN stack and server configuration: Linux, Nginx, PM2."
+      },
+      "learning": {
+        "title": "Always Learning",
+        "description": "Studying Information Systems & Technologies while completing hands-on courses."
+      }
+    }
+  },
+  "skills": {
+    "eyebrow": "Skills",
+    "title": "Tools & technologies I work with",
+    "description": "A toolkit built for shipping full-stack products end to end — from interface to server.",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "database": "Database",
+      "tools": "Tools"
+    }
+  },
+  "projects": {
+    "eyebrow": "Projects",
+    "title": "Things I've built",
+    "description": "A selection of full-stack and frontend projects, from school platforms to everyday utility apps.",
+    "items": {
+      "school": {
+        "title": "School Official Website",
+        "description": "Official website for a school with JWT authentication, an admin panel with full CRUD control, and file uploads."
+      },
+      "social": {
+        "title": "Social Network / Blog Platform",
+        "description": "A social platform with user registration, and full CRUD for posts and comments, built on a fast Vite + Tailwind frontend."
+      },
+      "cars": {
+        "title": "Car Listings Platform",
+        "description": "A full MERN-stack marketplace for car listings featuring search, filtering, and sorting capabilities."
+      },
+      "weather": {
+        "title": "Weather App",
+        "description": "A clean weather forecast app powered by the Open-Meteo API with a responsive Bootstrap UI."
+      },
+      "prayer": {
+        "title": "Prayer Times App",
+        "description": "A prayer time lookup app for Uzbekistan built with React and the Aladhan API."
+      }
+    }
+  },
+  "experience": {
+    "eyebrow": "Experience",
+    "title": "Where I've worked",
+    "items": {
+      "freelance": {
+        "role": "Frontend Developer (Freelance)",
+        "place": "Personal Projects, Tashkent",
+        "period": "May 2026 — Present",
+        "description": "Designing and building full-featured web applications end-to-end with the MERN stack, from UI to deployment."
+      },
+      "teacher": {
+        "role": "Computer Science Teacher",
+        "place": "Private School, Tashkent",
+        "period": "September 2024 — December 2024",
+        "description": "Taught computer science fundamentals and programming basics to students."
+      },
+      "operator": {
+        "role": "Operator",
+        "place": "Yandex Taxi, Tashkent",
+        "period": "May 2023 — September 2023",
+        "description": "Handled customer support and dispatch operations in a fast-paced environment."
+      }
+    }
+  },
+  "education": {
+    "eyebrow": "Education",
+    "title": "Academic & course background",
+    "items": {
+      "university": {
+        "degree": "Bachelor's, Information Systems and Technologies (Evening Program)",
+        "place": "National University of Uzbekistan",
+        "period": "September 2021 — May 2028"
+      },
+      "mohirdev": {
+        "degree": "React.js Course",
+        "place": "Mohirdev, Online",
+        "period": "Completed"
+      }
+    },
+    "status": {
+      "inProgress": "In progress",
+      "completed": "Completed"
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's build something together",
+    "description": "Open to full-time, part-time, or project-based work. Reach out and let's talk about your idea.",
+    "location": {
+      "title": "Based in Tashkent, Uzbekistan",
+      "subtitle": "Open to remote & on-site opportunities"
+    },
+    "items": {
+      "email": "Email",
+      "phone": "Phone",
+      "telegram": "Telegram",
+      "github": "GitHub",
+      "linkedin": "LinkedIn"
+    },
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "you@example.com",
+      "message": "Message",
+      "messagePlaceholder": "Tell me about your project...",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Thanks! Your message has been sent — I'll get back to you soon.",
+      "error": "Something went wrong. Please try again, or email me directly."
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "backToTop": "Back to top"
+  }
+}
